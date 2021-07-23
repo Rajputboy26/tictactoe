@@ -1,4 +1,8 @@
-# Nano React App Default Javascript Template
+## Try this web app by clicking on [here](https://zero-kanta.surge.sh/)
+or go to `https://zero-kanta.surge.sh/`
+
+
+## Nano react app default javascript template
 
 The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
 
