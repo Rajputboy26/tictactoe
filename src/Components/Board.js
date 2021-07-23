@@ -15,7 +15,6 @@ const Board = ({ board, handleSquareClick, winningSquares }) => {
 
   return (
     <div className="board">
-      {/* <h2 align="center">message</h2> */}
       <div className="board-row">
         {renderSquare(0)}
         {renderSquare(1)}
