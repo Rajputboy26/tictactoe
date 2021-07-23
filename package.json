@@ -16,9 +16,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "node-forge": "^0.10.0",
     "node-sass": "^5.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
