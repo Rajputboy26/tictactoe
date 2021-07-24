@@ -47,9 +47,19 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>
+      <h1 style={{ marginBottom: '0' }}>
         TIC <span className="text-green">TAC</span> TOE
       </h1>
+      <h3
+        style={{
+          marginTop: '0',
+          fontSize: 'small',
+          fontWeight: 'lighter',
+          color: 'darkorange',
+        }}
+      >
+        By Surya
+      </h3>
       <Message winner={winner} current={current} />
       <Board
         board={current.board}
