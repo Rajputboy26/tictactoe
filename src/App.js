@@ -17,7 +17,11 @@ const App = () => {
   // console.log(winner);
 
   const handleSquareClick = position => {
-    if (current.board[position] || winner) {
+    if (
+      current.board[position] ||
+      winner ||
+      history.length != currentMove + 1
+    ) {
       return;
     }
     setHistory(prev => {
